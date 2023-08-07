@@ -27,3 +27,21 @@ sudo apt install snapd
 sudo apt update
 sudo snap install snapcraft --classic
 sudo snap install core
+
+# Stellarium
+sudp snap install stellarium
+
+# Flatpak
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# LibreOffice
+sudo apt-get update
+flatpak install flathub org.libreoffice.LibreOffice
+
+# Blender
+sudo snap install blender --classic
+
+# Visual Studio Code
+sudo snap install code --classic
