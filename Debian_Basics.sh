@@ -45,3 +45,8 @@ sudo snap install blender --classic
 
 # Visual Studio Code
 sudo snap install code --classic
+
+# clear
+clear
+
+# Virtual Box
